@@ -1,0 +1,110 @@
+<!DOCTYPE html> <!--DTD Document type declearation-->
+<html> <!-- open html tag-->
+    <head>
+        <title>jaga</title> <!--tab oda title-->
+        <link rel="icon" type="image/x-icon" href="insta.webp" > <!--favicon-->
+    </head>
+
+        <body style="background-color: aqua;"> <!--body-->
+            <h1 style="color:green; font-family:sans-serif; text-align: center;">Hi Iam Jagadeesh</h1> <!--h1 means heading tag-->
+<!----------------------------------------------------------------------------------------------------------------------------------->
+
+            <p>Iam a software     <i>developer</i><!--nesting tags--> 
+                                                  <!--p means paragraph-->  
+                i love java                       <!--ellamey same line la dha varum htlm white space ha html consider pannadhu oru space dha edukum-->
+            </p>
+
+            <pre>Iam a software     developer  <!--pre also paragraph-->
+i love java                                    <!--ippo adhey mari varum-->
+            </pre>
+<!----------------------------------------------------------------------------------------------------------------------------------->
+
+            <h2>My Github Profile</h2>
+            <a href="https://github.com/JAGADEESHHUB" target="_blank"><img src="insta.webp">follow me on github</a> <!-- href is a "attributes" and (follow me on github) this is name of the attribute-->
+                                                                                                                    <!--target = blank which opens tab into another tab-->
+                                                                                                                    <!--images also used as link-->
+<!----------------------------------------------------------------------------------------------------------------------------------->
+           
+            <img src="https://wallpapercave.com/wp/wp7250087.jpg"
+            height="300px" width="200px" style="border: 100xp solid green;"  ><!--img is a self closing tag-->
+                                                                                <!--src,height,width are attributes-->
+<!----------------------------------------------------------------------------------------------------------------------------------->
+
+            <img src="images/java.jpeg" alt="this is an image"> <!--filename/imagename.format-->
+                                                                <!--if iamge not came the alt will work-->
+<!----------------------------------------------------------------------------------------------------------------------------------->                
+            <hr> <!--it create an horizontal line-->
+            <br> <!--it leave space like /n-->
+<!----------------------------------------------------------------------------------------------------------------------------------->
+
+            <a href="mailto:jagadeeshkoff@gmail.com">mail me</a> <!--redirect to mail-->
+
+<!----------------------------------------------------------------------------------------------------------------------------------->
+
+            <table style="border: 1px dashed;"><!--table-->
+                                               <!--adding border to column-->
+                <caption style="color:brown; font-family:sans-serif;">my table</caption><!--caption of table like heading of the table-->
+                <thead><!--table head-->
+                    <tr><!--table row-->
+                        <th>Sno</th> <!--th means=table header-->
+                        <th colspan="2">project</th><!--column spanning adding two data for same heading-->
+                        <th>language</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>ticket booking</td>
+                        <td>java</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td><!--table data-->
+                        <td>management system</td>
+                        <td>java</td>
+                    </tr>
+
+                </tbody>
+            </table>
+            <br id="img">
+
+<!----------------------------------------------------------------------------------------------------------------------------------->
+        <list><!--unorder list-->
+            <caption>LANGUAGES KNOWN</caption>
+            <ul>
+                <li>java</li>
+                <li>c</li>
+                <li>sql</li>
+                <li>html</li>
+            </ul>
+        </list>
+        <br>
+        <list><!--order list-->
+            <caption>LANGUAGES KNOWN</caption>
+            <ol>
+                <li>java</li>
+                <ul>
+                    <li>spring</li><!--nested list-->
+                    <li>oops</li>
+                </ul>
+                <li>c</li>
+                <li>sql</li>
+                <li>html</li>
+            </ol>
+        </list>
+<!----------------------------------------------------------------------------------------------------------------------------------->
+
+<div></div> <!--block elements-->
+<span></span> <!--in line elements-->
+
+<!----------------------------------------------------------------------------------------------------------------------------------->
+
+<a href="#img">--navingation</a> <!--navingation (see table)-->
+
+<!----------------------------------------------------------------------------------------------------------------------------------->
+
+<iframe src="youtube.com"> youtube site</iframe><!--adding another site window-->
+
+<!----------------------------------------------------------------------------------------------------------------------------------->
+        </body>
+</html> <!--closing tag-->`
