@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html><!--internal style sheet-->
+    <style> 
+        body{
+            background-color: black;
+        }
+        h1{
+            color: aqua;
+            font-family: sans-serif;
+        }
+        p{
+            color: rgb(39, 40, 41);
+            background-color: rgb(197, 201, 201);
+        }
+    </style>
+<head>
+    <title>tutorial</title>
+    <link rel="stylesheet" href="external.css"> <!--external style sheet-->
+                                                 <!--we can use this sheets for other projects also-->
+</head>
+<body>
+    <h1>this is my project</h1>
+    <h2>read my project</h2>
+    <p>Project management is the practice of coordinating processes, tools, team members, and skills to deliver projects that meet goals and satisfy requirements. It empowers your team to complete projects by rallying them around clear objectives, increasing transparency and visibility, streamlining communication, and establishing the project scope1. In essence, 
+        project management involves applying specific knowledge, skills, methodologies, and techniques to achieve specific and measurable project goals. These goals could include developing software for an improved business process, constructing a building, providing relief efforts after a natural disaster, or expanding sales into a new geographic market23.
+        If you’re interested in becoming a project manager, it’s essential to understand the project lifecycle, acquire relevant skills, and familiarize yourself with the tools used for successful project delivery. Project management offers exciting career opportunities, and certifications from organizations like the Project Management Institute (PMI) can enhance 
+        your credentials23. Feel free to explore real-life examples of project management across various industries and project phases to gain deeper insights into this dynamic field!
+     </p>
+</body>
+</html>
+
+
+------------------------------------\EXTERNAL CSS FILE/----------------------------------------
+h2{
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+------------------------------------------------------------------------------------------------
